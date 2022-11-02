@@ -3,6 +3,8 @@
 ![npm version](https://img.shields.io/npm/v/@svackages/sveltkit-hook-html-minifier)
 ![license](https://img.shields.io/github/license/svackages/sveltkit-hook-html-minifier)
 # sveltkit-hook-html-minifier
+⚠ This might change a bit with SvelteKit 1.0 ⚠
+
 A sveltkit hook that wrapps [html-minifier](https://www.npmjs.com/package/html-minifier)
 
 ## How to use
