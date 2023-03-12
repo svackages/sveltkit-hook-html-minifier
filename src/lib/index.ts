@@ -29,7 +29,6 @@ interface HtmlMinifierHandle {
 
 export const htmlMinifierHook: HtmlMinifierHandle = async ({ event, resolve, minifierOptions = {}, prerendering = true }) => {
 	const options = Object.assign(defaultMinifierOptions, minifierOptions)
-	console.log(prerendering);
 
 	const response = await resolve(
 		event,
